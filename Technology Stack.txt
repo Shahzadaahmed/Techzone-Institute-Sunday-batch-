@@ -1,0 +1,16 @@
+Technology Stack.
+
+1: HTML5.
+2: CSS3.
+3: Responsiveness using css.
+4: Bootstrap5.
+5: JavaScript.
+
+MERN Stack:
+6 a: React JS.
+6 b: Redux JS.
+6 c: React Native JS.
+
+7: Express JS.
+8: Node JS.
+9: Mongo DB.
