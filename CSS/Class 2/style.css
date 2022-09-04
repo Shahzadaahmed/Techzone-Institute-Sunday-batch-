@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: lightblue;
+}
+
+@font-face {
+    font-family: "my_custom_font";
+    src: url("./Qwitcher_Grypen/QwitcherGrypen-Regular.ttf");
+}
+
+.heading_1 {
+    /* font-family: serif; */
+    font-family:  Georgia, 'Times New Roman', Times, serif;
+}
+
+.heading_2 {
+    /* font-family: sans-serif; */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.heading_3 {
+    font-family: monospace;
+}
+
+.class_1 {
+    font-weight: bold;
+    /* font-size: 20px; */
+}
+
+.class_2 {
+    font-weight: bolder;
+    font-size: 50%;
+}
+
+.class_3 {
+    font-weight: bold;
+    font-style: italic;
+    font-size: larger;
+}
+
+.classHeading_1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 24px;
+    text-transform: lowercase;
+    text-transform: capitalize;
+    text-decoration: underline;
+    /* word-spacing: 10px; */
+    /* letter-spacing: 10px; */
+}
+
+.classHeading_2 {
+    font-family: my_custom_font;
+    text-transform: uppercase;
+    /* text-decoration: dashed; */
+}
+
+#header {
+    background-color: yellow;
+    text-align: center;
+    color: red;
+}

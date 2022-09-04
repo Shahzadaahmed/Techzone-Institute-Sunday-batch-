@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* #container {
+    background-color: yellow;
+    height: 50vh;
+} */
+
+
+.box-1 {
+    background-color: yellow;
+    padding: 10px;
+    width: 50%;
+    /* height: 80px; */
+    margin: 0 auto;
+}
+
+.box-2 {
+    background-color: lightblue;
+    padding: 10px;
+    width: 40%;
+    height: 90px;
+    overflow: scroll;
+    margin: 10px;
+    margin-left: 30px;
+}
+
+.box-3 {
+    background-color: lightgreen;
+    padding: 10px;
+    width: 60%;
+    border: 3px double green;
+    /* border-width: 3px;
+    border-style: double;
+    border-color: blue; */
+    border-radius: 10px;
+}
+
+.boxes {
+    color: green;
+    background-color: lightgreen;
+    width: 30%;
+    border: 3px double darkgreen;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px;
+    display: inline-block;
+    /* display: none; */
+}
+
+.subjects {
+    font-size: 20px;
+    color: darkblue;
+    text-transform: capitalize;
+    /* display: block; */
+}
+
+#css-el {
+    visibility: hidden;
+}
