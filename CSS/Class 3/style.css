@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("./images/cover.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* ol {
+    list-style-type: circle;
+    cursor: pointer;
+} */
+
+#container {
+    /* background-color: yellow; */
+    height: 100vh;
+    position: relative;
+}
+
+/* #chat-icon {
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    right: 20px;
+    bottom: 10px;
+} */
+
+p {
+    font-size: 20px;
+    padding: 10px;
+    color: red;
+    /* z-index: 0; */
+}
+
+/* #fixed-icon {
+    height: 50px;
+    width: 50px;
+    position: fixed;
+} */
+
+/* #test-icon {
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 0;
+} */
+
+/* body {
+    width: 750px;
+    font-family: Arial, Verdana, sans-serif;
+    color: #665544;
+} */
+
+
+/* p {
+    float: right;
+    width: 230px;
+    margin: 5px;
+    padding: 5px;
+    background-color: #efefef;
+} */
+
+#para {
+    background-color: yellow;
+    width: 30%;
+    margin: 0 auto;
+}
+
+#test-icon {
+    height: 50px;
+    width: 50px;
+}
