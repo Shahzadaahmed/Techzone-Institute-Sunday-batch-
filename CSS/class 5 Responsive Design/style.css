@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#parent {
+    display: flex;
+    flex-direction: row;
+    background-color: lightgreen;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.child_1 {
+    background-color: yellow;
+    padding: 10px;
+}
+
+.child_2 {
+    background-color: lightblue;
+    padding: 10px;
+}
+
+.child_3 {
+    background-color: lightgreen;
+    padding: 10px;
+}
+
+#chat-icon {
+    height: 50px;
+    width: 50px;
+}
+
+/* @media screen and (max-width: 800px) {
+    #parent {
+        flex-direction: column
+    }
+
+    .child_1 {
+        background-color: orange
+    }
+
+    #chat-icon {
+        height: 70px;
+        width: 70px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .child_3 {
+        background-color: blue;
+        color: white;
+    }
+
+    #chat-icon {
+        height: 90px;
+        width: 90px;
+    }
+} */

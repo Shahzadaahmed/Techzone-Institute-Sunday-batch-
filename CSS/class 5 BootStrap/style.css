@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.custom_h1 {
+    color: red;
+}
+
+.btn-primary {
+    background-color: red;
+}
+
+.btn-primary:hover {
+    background-color: yellow;
+    color: black;
+}

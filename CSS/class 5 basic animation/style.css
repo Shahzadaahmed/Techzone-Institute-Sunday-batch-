@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    animation-name: blinker;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes blinker {
+    0% {
+        background-color: white;
+        color: black;
+    }
+
+    25% {
+        background-color: blue;
+        color: yellow;
+        font-style: italic;
+    }
+
+    50% {
+        background-color: lightgreen;
+        color: blue;
+        font-style: unset;
+    }
+
+    75% {
+        background-color: red;
+        color: black;
+    }
+
+    100% {
+        background-color: blueviolet;
+        color: gold;
+        font-size: 25px;
+    }
+}
