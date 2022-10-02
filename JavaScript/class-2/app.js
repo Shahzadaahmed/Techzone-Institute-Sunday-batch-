@@ -121,19 +121,19 @@
 //     console.log('Invalid input!');
 // };
 
-var userInput = Number(prompt('Enter any number'));
-var luckNum = 8;
+// var userInput = Number(prompt('Enter any number'));
+// var luckNum = 8;
 
-if (userInput >= 5) {
-    if (userInput == luckNum) {
-        console.log(userInput + luckNum);
-    }
+// if (userInput >= 5) {
+//     if (userInput == luckNum) {
+//         console.log(userInput + luckNum);
+//     }
 
-    else {
-        console.log('Lucky Number Not Matched!')
-    }
-}
+//     else {
+//         console.log('Lucky Number Not Matched!')
+//     }
+// }
 
-else {
-    console.log('Number Not Matched!');
-};
+// else {
+//     console.log('Number Not Matched!');
+// };
