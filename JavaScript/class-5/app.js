@@ -97,6 +97,21 @@ else {
 // };
 
 
-for ( var i = 10; i >= 5; i-- ) {
-    console.log(i);
+// for ( var i = 10; i >= 5; i-- ) {
+//     console.log(i);
+// };
+
+
+var numbers = [24, 38, 19, 50, 40, 5];
+// console.log(numbers);
+var largestNum = 0;
+
+for (var i = 0; i < numbers.length; i++) {
+    // console.log(numbers[i]);
+
+    if (numbers[i] > largestNum) {
+        largestNum = numbers[i];
+    };
 };
+
+console.log(largestNum);
