@@ -179,7 +179,7 @@ console.log(`Smallest number is ${foundSmallestNum}`);
 
 
 // Q:14 Solution:
-
+/*
 var scoresArr = [12, 45, 3, 22, 34, 50];
 var userInput = prompt("Enter stop point");
 var itemFound = false;
@@ -201,4 +201,118 @@ if (itemFound) {
 
 else {
     console.log('Number not found in the iven array!');
+};
+*/
+
+
+
+// Q:15 Solution:
+
+// var arr = [
+//     [1, 2, 3],
+//     [4, 5, 6],
+//     [7, 8, 9],
+// ];
+// // console.log(arr);
+
+// for (var i = 0; i < arr.length; i++) {
+//     console.log(arr[i]);
+// };
+
+
+
+// Q:16 Solution:
+
+// var userInput = 5;
+// // var userInput = Number(prompt('Enter any number!'));
+
+// for (var i = userInput; i >= 0; i = i - 0.5) {
+//     // console.log(i - 0.5);
+//     console.log(i);
+// };
+
+
+
+// Q:17 Solution:
+
+// for (var i = 0; i <= 20; i++) {
+//     // console.log(i);
+
+//     if (i % 2 == 0) {
+//         console.log(`${i} is Even`);
+//     }
+
+//     else {
+//         console.log(`${i} is Odd`);
+//     };
+// };
+
+
+
+// Q:18 Solution:
+// var initialPoint = 1;
+
+// for (var i = 1; i <= 7; i++) {
+//     // console.log(i);
+
+//     if (i % 2 != 0) {
+//         // console.log(i);
+//         initialPoint = initialPoint * i;
+//     };
+// };
+
+// console.log(initialPoint);
+
+
+
+// Q: 19, 20 Solution:
+// a:
+
+// var strPattrenA = "*****";
+
+// for (var i = 0; i < 5; i++) {
+// document.write(strPattrenA, "<br>");
+// document.write(`<h1> ${strPattrenA} </h1>`);
+// };
+
+
+
+// c:
+
+// var strPattrenC = "*****";
+// var starLength = strPattrenC.length;
+
+// // console.log(strPattrenC);
+// // console.log(starLength);
+
+// for (var i = starLength - 1; i >= 0; i--) {
+//     // console.log(i);
+//     document.write(strPattrenC, "<br />");
+//     strPattrenC = strPattrenC.slice(0, strPattrenC.length - 1);
+// };
+
+
+
+// b:
+// var strPattrenB = "*";
+// var starLength = strPattrenB.length;
+
+// for (var i = 0; i < 5; i++) {
+//     // console.log(i);
+//     document.write(strPattrenB, "<br />");
+//     strPattrenB = strPattrenB + "*";
+// };
+
+
+// Note: Last important question...!
+
+for (var i = 1; i <= 3; i++) {
+    // console.log("i", i);
+
+    for (var j = 1; j <= 3; j++) {
+        // console.log("j", j);
+
+        var k = i * j;
+        console.log("k", k);
+    };
 };
