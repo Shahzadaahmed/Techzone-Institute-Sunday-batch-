@@ -9,6 +9,37 @@
 </head>
 
 <body>
+    <div>
+        <h1> First Name: <span id="showFirstName"></span> </h1>
+        <h1> Last Name: <span id="showLastName"></span> </h1>
+        <h1> Your D.O.B: <span id="showDob"></span> </h1>
+    </div>
+
+    <div>
+        <label for="firstName">
+            First Name:
+            <input type="text" placeholder="Enter Your First Name" id="firstName" />
+        </label>
+
+        <br />
+
+        <label for="lastName">
+            Last Name:
+            <input type="text" placeholder="Enter Your Last Name" id="lastName" />
+        </label>
+
+        <br />
+
+        <label for="dob">
+            Select Date:
+            <input type="date" placeholder="Enter Your DOB" id="dob" />
+        </label>
+
+        <br />
+
+        <button onclick="submitData()" id="btn"> Submut </button>
+    </div>
+
     <script src="./app.js"></script>
 </body>
 
