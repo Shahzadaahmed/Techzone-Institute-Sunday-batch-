@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Bidding App </title>
+</head>
+
+<body>
+    <div>
+        <h1> Bidding App </h1>
+        <h2> Coins: <span id="coins"></span> </h2>
+        <h2 id="show-message"></h2>
+        <h2> Your Bid No: <span id="show-bid-no"></span> </h2>
+        <h2> Generated Dice No: <span id="show-dice-no"></span> </h2>
+        <img src="./images/Dice1.png" alt="Dice"  id="diceBox" />
+
+        <hr />
+        <div>
+            <label for="bid-no-value">
+                Bid No:
+                <input type="number" placeholder="Enter Bid Number" id="bid-no-value" />
+            </label>
+
+            <br />
+
+            <label for="bid-amount-value">
+                Enter Bid Amount:
+                <input type="number" placeholder="Enter Bid Amount" id="bid-amount-value" />
+            </label>
+
+            <br />
+
+            <button id="btn" onclick="playGame()"> Play Game </button>
+        </div>
+    </div>
+
+    <script src="./app.js"></script>
+</body>
+
+</html>
