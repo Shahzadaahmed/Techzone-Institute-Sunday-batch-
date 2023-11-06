@@ -58,3 +58,18 @@
         width: 90px;
     }
 } */
+
+
+@media screen and (max-width : 800px) {
+    #parent {
+        background-color: orange;
+    }
+}
+
+
+
+@media screen and (max-width : 500px) {
+    #parent {
+        background-color: blue;
+    }
+}
